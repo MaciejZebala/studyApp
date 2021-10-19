@@ -1,12 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-  html {
+  /* html {
     box-sizing: border-box;
-  }
+  } */
   
   *, *::after, *::before {
-    box-sizing: inherit;
+    box-sizing: border-box;
   }
   
   body {

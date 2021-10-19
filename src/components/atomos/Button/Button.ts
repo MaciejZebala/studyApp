@@ -6,7 +6,7 @@ export const Button = styled.button`
   justify-content: center;
   width: 25px;
   height: 25px;
-  background-color: ${({ theme }) => theme.colors.grey};
+  background-color: ${({ theme }) => theme.colors.darkGrey};
   border-radius: 50px;
   border: none;
   color: white;
