@@ -7,7 +7,7 @@ export const AvarageWrapper = styled.div<{ value: number }>`
   width: 35px;
   height: 35px;
   border-radius: 50px;
-  font-size: ${({ theme }) => theme.fontSize.s};
+  font-size: ${({ theme }) => theme.fontSize.m};
   color: ${({ theme }) => theme.colors.white};
   font-weight: bold;
   background: ${({ theme, value }) => {
